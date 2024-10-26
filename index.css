@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: darkgrey;
+    font-family: arial,sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+#main-header{
+    background-color: darkgrey;
+    color: blue;
+}
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav bar .nav list{
+    list-style: none;
+    display: flex; 
+    justify-content: space-between;  
+}
+.nav-link{
+    text-decoration: none;
+    display: flex;
+    
+}
+.nav-i{
+    margin-left: 20px;
+    display: flex;    
+}
+#tolu > img{
+    display: flex;
+    height: 120px;
+    width: 180px;
+} 
+.Contacts{
+   font-size: 1.5rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 20px;
+  color: darkcyan;
+}
